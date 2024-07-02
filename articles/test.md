@@ -1,8 +1,6 @@
-## Welcome
+# Welcome
 
 Welcome to the project documentation. This document outlines all the necessary details, specifications, and guidelines for the project.
-
-### Purpose
 
 The purpose of this project is to provide a comprehensive solution to improve user experience and streamline web development tasks.
 
