@@ -6,7 +6,7 @@ Welcome to the project documentation. This document outlines all the necessary d
 
 The purpose of this project is to provide a comprehensive solution to improve user experience and streamline web development tasks.
 
-<div style="width:6000px;height:150px">test lorem ipsum</div>
+<div style={{width:6000}}>test lorem ipsum</div>
 
 ### Scope
 
