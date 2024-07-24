@@ -8,7 +8,7 @@ The purpose of this project is to provide a comprehensive solution to improve us
 
 This project covers the following areas:
 
-- User Interface (UI) Design
+- User Interface (UI) Designs
 - User Experience (UX) Optimizations
 - Web Development
 - Quality Assurance (QAs)
