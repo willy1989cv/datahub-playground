@@ -6,7 +6,7 @@ Welcome to the project documentation. This document outlines all the necessary d
 
 The purpose of this project is to provide a comprehensive solution to improve user experience and streamline web development tasks.
 
-[Important file one](important file one.md)
+[Important file one](important+file+one.md)
 
 ### Scope
 
