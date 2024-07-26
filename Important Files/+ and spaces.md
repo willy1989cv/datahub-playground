@@ -8,6 +8,8 @@ The purpose of this project is to provide a comprehensive solution to improve us
 
 [Important file one](important%20file%20one.md)
 
+[File](../blog/article%20with%20space.md)
+
 ### Scope
 
 This project covers the following areas:
