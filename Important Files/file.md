@@ -6,6 +6,8 @@ Welcome to the project documentation. This document outlines all the necessary d
 
 The purpose of this project is to provide a comprehensive solution to improve user experience and streamline web development tasks.
 
+[+ and spaces](+%20and%20spaces.md)
+
 ### Scope
 
 This project covers the following areas:
