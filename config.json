@@ -1,4 +1,7 @@
 {
   "title": "PlayGround",
-  "showSidebar": true
+  "showSidebar": true,
+  "author": {
+    "name": "William Lima"
+  }
 }
