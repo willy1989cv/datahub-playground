@@ -2,6 +2,7 @@
   "title": "PlayGround",
   "showSidebar": true,
   "author": {
-    "name": "William Lima"
+    "name": "William Lima",
+    "logo": "https://avatar.vercel.sh/1"
   }
 }
