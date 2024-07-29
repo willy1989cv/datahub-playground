@@ -2,6 +2,7 @@
   "title": "PlayGround",
   "showSidebar": true,
   "showEditLink": true,
+  "showRepositoryLink": false,
   "author": {
     "name": "William Lima",
     "logo": "https://avatars.githubusercontent.com/u/33525547?s=40&v=4",
