@@ -1,5 +1,5 @@
 ---
-title: Welcome page
+title: Blog Article With Space
 ---
 
 Welcome to the project documentation. This document outlines all the necessary details, specifications, and guidelines for the project.
