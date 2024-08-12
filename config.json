@@ -1,6 +1,6 @@
 {
   "title": "PlayGround",
-  "showSidebar": true,
+  "showSidebar": false,
   "showEditLink": true,
   "showRepositoryLink": true,
   "contentExclude": ["/Folder With Space", "Important Files"],
