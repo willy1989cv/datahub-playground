@@ -3,10 +3,10 @@
   "showSidebar": true,
   "showEditLink": true,
   "showRepositoryLink": true,
-  "contentExclude": ["/Folder With Space"],
+  "contentExclude": [],
   "contentInclude": [],
   "author": {
-    "name": "William Lima.",
+    "name": "William Lima",
     "logo": "https://avatars.githubusercontent.com/u/33525547?s=40&v=4",
     "url": "http://localhost:3000/@willy1989cv/datahub-playground"
   }
