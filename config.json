@@ -4,7 +4,7 @@
   "showEditLink": true,
   "showRepositoryLink": true,
   "contentExclude": [],
-  "contentInclude": ["/index.md", "/blog"],
+  "contentInclude": ["/index.md"],
   "author": {
     "name": "William Lima.",
     "logo": "https://avatars.githubusercontent.com/u/33525547?s=40&v=4",
