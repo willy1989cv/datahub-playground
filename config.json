@@ -3,8 +3,8 @@
   "showSidebar": true,
   "showEditLink": true,
   "showRepositoryLink": true,
-  "contentExclude": ["/Folder With Space", "Important Files"],
-  "contentInclude": [],
+  "contentExclude": [],
+  "contentInclude": ["/index.md", "/blog"],
   "author": {
     "name": "William Lima.",
     "logo": "https://avatars.githubusercontent.com/u/33525547?s=40&v=4",
