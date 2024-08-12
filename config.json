@@ -3,7 +3,7 @@
   "showSidebar": true,
   "showEditLink": true,
   "showRepositoryLink": true,
-  "contentExclude": ["/Folder With Space"],
+  "contentExclude": ["/Important Files", "/Folder With Space"],
   "contentInclude": [],
   "author": {
     "name": "William Lima",
