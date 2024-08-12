@@ -1,5 +1,5 @@
 ---
-title: Blog Article With Space A
+title: Blog Article With Space
 isDraft: true
 ---
 
