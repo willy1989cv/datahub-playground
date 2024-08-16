@@ -37,7 +37,7 @@ The chosen color scheme is:
 
 ## User Experience Optimization
 
-### User Research
+### User Research Sint nulla anim occaecat officia labore aliquip adipisicing voluptate do deserunt ea sit nisi aliqua. Cillum reprehenderit non elit reprehenderit magna eiusmod proident sit in nostrud.
 
 User research involves:
 
