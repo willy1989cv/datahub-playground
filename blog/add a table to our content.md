@@ -1,14 +1,14 @@
-## Adding a Table Component
+# Adding a Table Component
 
 With Datahub Cloud, you can easily add table component to your datasets or data stories.
 
-### FlatUiTable
+## FlatUiTable
 
 A dynamic component that will render your flat dataset (an array of objects) in a table view. it comes with a variety of features that can enhance the way your data is presented, such as sorting, pagination, and export options.
 
-#### Data source
+### Data source
 
-#### Adding data from array objects
+### Adding data from array objects
 
 You may just want to show some static data in your story. in this case, you'll have to pass a `data.values` attribute to the component in you .md file. Like this:
 
@@ -59,7 +59,7 @@ data={{
   }}
 />
 
-#### 4 Adding through a external csv file.
+### 4 Adding through a external csv file.
 
 Your data can also be a csv file that is hosted somewhere else, you can show it on your story passing a `data.url` property to the FlatUiComponent:
 
