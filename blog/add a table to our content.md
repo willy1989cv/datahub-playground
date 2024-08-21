@@ -8,8 +8,6 @@ A dynamic component that will render your flat dataset (an array of objects) in 
 
 #### Data source
 
----
-
 #### Adding data from array objects
 
 You may just want to show some static data in your story. in this case, you'll have to pass a `data.values` attribute to the component in you .md file. Like this:
