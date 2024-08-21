@@ -12,9 +12,9 @@ A dynamic component that will render your flat dataset (an array of objects) in 
 
 You may just want to show some static data in your story. in this case, you'll have to pass a `data.values` attribute to the component in you .md file. Like this:
 
-```md
+```mdx
 <FlatUiTable
-data={{
+  data={{
     values: [
       {
         FirstName: "Jon",
@@ -30,8 +30,8 @@ data={{
         FirstName: "Jaime",
         LastName: "Lannister",
         Age: 45,
-      }
-    ]
+      },
+    ],
   }}
 />
 ```
@@ -63,10 +63,10 @@ data={{
 
 Your data can also be a csv file that is hosted somewhere else, you can show it on your story passing a `data.url` property to the FlatUiComponent:
 
-```md
+```mdx
 <FlatUiTable
-data={{
-    url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
+  data={{
+    url: "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv",
   }}
 />
 ```
