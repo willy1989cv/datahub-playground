@@ -65,14 +65,14 @@ Your data can also be a csv file that is hosted somewhere else, you can show it 
 
 ```md
 <FlatUiTable
-data={
-url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
-}
+data={{
+    url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
+  }}
 />
 And...
 <FlatUiTable
-data={
-url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
-}
+data={{
+    url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
+  }}
 />
 ```
