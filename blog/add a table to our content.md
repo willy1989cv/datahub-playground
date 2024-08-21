@@ -6,8 +6,6 @@ With Datahub Cloud, you can easily add table component to your datasets or data 
 
 A dynamic component that will render your flat dataset (an array of objects) in a table view. it comes with a variety of features that can enhance the way your data is presented, such as sorting, pagination, and export options.
 
-### Data source
-
 ### Adding data from array objects
 
 You may just want to show some static data in your story. in this case, you'll have to pass a `data.values` attribute to the component in you .md file. Like this:
@@ -59,7 +57,7 @@ data={{
   }}
 />
 
-### 4 Adding through a external csv file.
+### Adding data through an external sources
 
 Your data can also be a csv file that is hosted somewhere else, you can show it on your story passing a `data.url` property to the FlatUiComponent:
 
@@ -75,5 +73,23 @@ And...
 <FlatUiTable
 data={{
     url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
+  }}
+/>
+
+### Raw csv
+
+Using `data.csv` you can easily write an inline csv and share it with users:
+
+```js
+<FlatUiTable
+  data={{
+    csv: "\n    Year,Temp Anomaly\n    1850,-0.418\n    2020,0.923\n    ",
+  }}
+/>
+```
+
+<FlatUiTable
+data={{
+    csv: "\n    Year,Temp Anomaly\n    1850,-0.418\n    2020,0.923\n    ",
   }}
 />
