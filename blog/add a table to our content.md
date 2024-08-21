@@ -17,18 +17,18 @@ You may just want to show some static data in your story. in this case, you'll h
 data={{
     values: [
       {
-        FirstName: 'Jon',
-        LastName: 'Snow',
+        FirstName: "Jon",
+        LastName: "Snow",
         Age: 35,
       },
       {
-        FirstName: 'Cersei',
-        LastName: 'Lannister',
+        FirstName: "Cersei",
+        LastName: "Lannister",
         Age: 42,
       },
       {
-        FirstName: 'Jaime',
-        LastName: 'Lannister',
+        FirstName: "Jaime",
+        LastName: "Lannister",
         Age: 45,
       }
     ]
@@ -41,18 +41,18 @@ to visualize this dynamic table, where you can sort your data, allow exporting a
 data={{
     values: [
       {
-        FirstName: 'Jon',
-        LastName: 'Snow',
+        FirstName: "Jon",
+        LastName: "Snow",
         Age: 35,
       },
       {
-        FirstName: 'Cersei',
-        LastName: 'Lannister',
+        FirstName: "Cersei",
+        LastName: "Lannister",
         Age: 42,
       },
       {
-        FirstName: 'Jaime',
-        LastName: 'Lannister',
+        FirstName: "Jaime",
+        LastName: "Lannister",
         Age: 45,
       }
     ]
@@ -60,3 +60,19 @@ data={{
 />
 
 #### 4 Adding through a external csv file.
+
+Your data can also be a csv file that is hosted somewhere else, you can show it on your story passing a `data.url` property to the FlatUiComponent:
+
+```md
+<FlatUiTable
+data={
+url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
+}
+/>
+And...
+<FlatUiTable
+data={
+url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
+}
+/>
+```
