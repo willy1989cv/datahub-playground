@@ -15,23 +15,20 @@ You can may just want to show some static data in your story, in this case, you 
 data={{
     values: [
       {
-        age: 35,
         firstName: 'Jon',
-        id: 1,
-        lastName: 'Snow'
+        lastName: 'Snow',
+        age: 35,
       },
       {
-        age: 42,
         firstName: 'Cersei',
-        id: 2,
-        lastName: 'Lannister'
+        lastName: 'Lannister',
+        age: 42,
       },
       {
-        age: 45,
         firstName: 'Jaime',
-        id: 3,
-        lastName: 'Lannister'
-      },
+        lastName: 'Lannister',
+        age: 45,
+      }
     ]
   }}
 />
@@ -42,23 +39,20 @@ to generate this awesome and dynamic table view
 data={{
     values: [
       {
-        age: 35,
         firstName: 'Jon',
-        id: 1,
-        lastName: 'Snow'
+        lastName: 'Snow',
+        age: 35,
       },
       {
-        age: 42,
         firstName: 'Cersei',
-        id: 2,
-        lastName: 'Lannister'
+        lastName: 'Lannister',
+        age: 42,
       },
       {
-        age: 45,
         firstName: 'Jaime',
-        id: 3,
-        lastName: 'Lannister'
-      },
+        lastName: 'Lannister',
+        age: 45,
+      }
     ]
   }}
 />
