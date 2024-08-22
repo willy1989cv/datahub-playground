@@ -100,6 +100,6 @@ If you’re working with Excel files, the `Excel` component is a great option to
 
 <Excel
 data={{
-    url: "/files/data.xlsx",
+    url: "/files/data.csv",
   }}
 />
