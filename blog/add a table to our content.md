@@ -1,14 +1,14 @@
 # Adding a Table Component
 
-With Datahub Cloud, you can easily add table component to your datasets or data stories.
+With Datahub Cloud, you can easily add table component to your datasets or data stories using different approaches depending on your needs
 
 ## FlatUiTable
 
-A dynamic component that will render your flat dataset (an array of objects) in a table view. it comes with a variety of features that can enhance the way your data is presented, such as sorting, pagination, and export options.
+A dynamic component that will render your dataset (an array of objects, csv file, inline csv, external source) in a table view. it comes with a variety of features that can enhance the way your data is presented such as filtering, sorting, pagination, and export options.
 
 ### Adding data from array objects
 
-You may just want to show some static data in your story. in this case, you'll have to pass a `data.values` attribute to the component in you .md file. Like this:
+You may just want to show some static data in your story. in this case, you can pass a `data.values` attribute to the component in you .md file. Like this:
 
 ```js
 <FlatUiTable
@@ -34,7 +34,7 @@ You may just want to show some static data in your story. in this case, you'll h
 />
 ```
 
-to visualize this dynamic table, where you can sort your data, allow exporting and some other cool features...
+to visualize and interact with your data:
 <FlatUiTable
 data={{
     values: [
