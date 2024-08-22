@@ -1,40 +1,29 @@
 # Adding a Table Component
 
-With Datahub Cloud, you can easily add table component to your datasets or data stories using different approaches depending on your needs
+Datahub Cloud allows you to easily add table components to your datasets or data stories. Here’s how you can do it using different approaches:
 
 ## FlatUiTable
 
-A dynamic component that will render your dataset (an array of objects, csv file, inline csv, external source) in a table view. it comes with a variety of features that can enhance the way your data is presented such as filtering, sorting, pagination, and export options.
+The `FlatUiTable` component dynamically renders your dataset (whether it’s an array of objects, a CSV file, inline CSV, or an external source) in a table view. It offers features like filtering, sorting, pagination, and export options.
 
-### Adding data from array objects
+### Adding Data from Array Objects
 
-You may just want to show some static data in your story. in this case, you can pass a `data.values` attribute to the component in you .md file. Like this:
+To display static data in your story, pass a `data.values` attribute to the component in your `.md` file. For example:
 
 ```js
 <FlatUiTable
   data={{
     values: [
-      {
-        FirstName: "Jon",
-        LastName: "Snow",
-        Age: 35,
-      },
-      {
-        FirstName: "Cersei",
-        LastName: "Lannister",
-        Age: 42,
-      },
-      {
-        FirstName: "Jaime",
-        LastName: "Lannister",
-        Age: 45,
-      },
+      { FirstName: "Jon", LastName: "Snow", Age: 35 },
+      { FirstName: "Cersei", LastName: "Lannister", Age: 42 },
+      { FirstName: "Jaime", LastName: "Lannister", Age: 45 },
     ],
   }}
 />
 ```
 
-to visualize and interact with your data:
+To visualize and interact with your data:
+
 <FlatUiTable
 data={{
     values: [
@@ -57,9 +46,9 @@ data={{
   }}
 />
 
-### Adding data through an external sources
+### Adding Data from External Sources
 
-Your data can also be a csv file that is hosted somewhere else, you can show it on your story passing a `data.url` property to the FlatUiComponent:
+If your data is stored in an external CSV file, you can display it by passing the `data.url` property to the `FlatUiTable` component:
 
 ```js
 <FlatUiTable
@@ -69,27 +58,30 @@ Your data can also be a csv file that is hosted somewhere else, you can show it 
 />
 ```
 
-And...
+And the table will be rendered like this:
+
 <FlatUiTable
 data={{
     url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
   }}
 />
 
-### Raw csv
+### Using Inline CSV
 
-Using `data.csv` you can easily write an inline csv and share it with users:
+You can also write inline CSV data using the `data.csv` property:
 
 ```js
 <FlatUiTable
   data={{
-    csv: "\n    Year,Temp Anomaly\n    1850,-0.418\n    2020,0.923\n    ",
+    csv: "Year,Temp Anomaly\n1850,-0.418\n2020,0.923",
   }}
 />
 ```
 
+To see it in action:
+
 <FlatUiTable
 data={{
-    csv: "\n    Year,Temp Anomaly\n    1850,-0.418\n    2020,0.923\n    ",
+    csv: "Year,Temp Anomaly\n1850,-0.418\n2020,0.923",
   }}
 />
