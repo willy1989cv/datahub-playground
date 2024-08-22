@@ -53,7 +53,7 @@ Your data source could be a csv in you githup project or even an external CSV fi
 ```js
 <FlatUiTable
   data={{
-    url: "/data/data.csv",
+    url: "/files/data.csv",
   }}
 />
 ```
@@ -62,7 +62,7 @@ And the table will be rendered like this:
 
 <FlatUiTable
 data={{
-    url: "/data/data.csv",
+    url: "/files/data.csv",
   }}
 />
 
@@ -93,13 +93,13 @@ If you’re working with Excel files, the `Excel` component is a great option to
 ```js
 <Excel
   data={{
-    url: "/data/data.xlsx",
+    url: "/files/data.xlsx",
   }}
 />
 ```
 
 <Excel
 data={{
-    url: "/data/data.xlsx",
+    url: "/files/data.xlsx",
   }}
 />
