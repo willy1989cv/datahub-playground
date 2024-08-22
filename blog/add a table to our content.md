@@ -53,7 +53,7 @@ Your data source could be a csv in you githup project or even an external CSV fi
 ```js
 <FlatUiTable
   data={{
-    url: "/csv/data.csv",
+    url: "/data/data.csv",
   }}
 />
 ```
@@ -62,7 +62,7 @@ And the table will be rendered like this:
 
 <FlatUiTable
 data={{
-    url: "/csv/data.csv",
+    url: "/data/data.csv",
   }}
 />
 
@@ -93,13 +93,13 @@ If you’re working with Excel files, the `Excel` component is a great option to
 ```js
 <Excel
   data={{
-    url: "https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx",
+    url: "/data/data.xlsx",
   }}
 />
 ```
 
 <Excel
 data={{
-    url: "https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx",
+    url: "/data/data.xlsx",
   }}
 />
