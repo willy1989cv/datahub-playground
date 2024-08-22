@@ -82,7 +82,11 @@ To see it in action:
 
 <FlatUiTable
 data={{
-    csv: "Year,Temp Anomaly\n1850,-0.418\n2020,0.923",
+    csv: `
+    Year,Temp Anomaly
+    1850,-0.418
+    2020,0.923
+    `,
   }}
 />
 
