@@ -93,13 +93,13 @@ If you’re working with Excel files, the `Excel` component is a great option to
 ```js
 <Excel
   data={{
-    url: "/files/data.xlsx",
+    url: "https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx",
   }}
 />
 ```
 
 <Excel
 data={{
-    url: "/files/data.xlsx",
+    url: "https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx",
   }}
 />
