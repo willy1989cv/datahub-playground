@@ -53,7 +53,7 @@ Your data source could be a csv in you githup project or even an external CSV fi
 ```js
 <FlatUiTable
   data={{
-    url: "/csv/demographic.csv",
+    url: "/csv/data.csv",
   }}
 />
 ```
@@ -62,7 +62,7 @@ And the table will be rendered like this:
 
 <FlatUiTable
 data={{
-    url: "/csv/demographic.csv",
+    url: "/csv/data.csv",
   }}
 />
 
