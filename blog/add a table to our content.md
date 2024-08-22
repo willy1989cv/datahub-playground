@@ -85,3 +85,21 @@ data={{
     csv: "Year,Temp Anomaly\n1850,-0.418\n2020,0.923",
   }}
 />
+
+## Excel
+
+If you’re working with Excel files, the `Excel` component is a great option to display your data. This component supports features like filtering, sorting, and viewing multiple sheets, making it easy to interact with your Excel data directly in your story.
+
+```js
+<Excel
+  data={{
+    url: "https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx",
+  }}
+/>
+```
+
+<Excel
+data={{
+    url: "https://storage.portaljs.org/IC-Gantt-Chart-Project-Template-8857.xlsx",
+  }}
+/>
