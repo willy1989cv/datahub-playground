@@ -48,12 +48,12 @@ data={{
 
 ### Adding Data from External Sources
 
-If your data is stored in an external CSV file, you can display it by passing the `data.url` property to the `FlatUiTable` component:
+Your data source could be a csv in you githup project or even an external CSV file. You can display it by passing the `data.url` property to the `FlatUiTable` component:
 
 ```js
 <FlatUiTable
   data={{
-    url: "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv",
+    url: "/csv/demographic.csv",
   }}
 />
 ```
@@ -62,7 +62,7 @@ And the table will be rendered like this:
 
 <FlatUiTable
 data={{
-    url : "https://storage.openspending.org/alberta-budget/__os_imported__alberta_total.csv"
+    url: "/csv/demographic.csv",
   }}
 />
 
